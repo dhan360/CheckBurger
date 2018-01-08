@@ -48,6 +48,21 @@ class Producto extends AppModel {
             'exclusive' => '',
             'finderQuery' => '',
             'counterQuery' => ''
+        ),
+        'DetalleCombo' => array(
+            'className' => 'DetalleCombo',
+            'foreignKey' => 'id_combo',
+            'dependent' => false,
+            'conditions' => '',
+            'fields' => '',
+            'order' => '',
+            'limit' => '',
+            'offset' => '',
+            'exclusive' => '',
+            'finderQuery' => '',
+            'counterQuery' => ''
         )
     );
+    
+    
 }
